@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document</title>
+
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <p><a href="https://www.huntshowdown.com/">Leave this page!</a></p>
+
+    <script>
+
+    let link = document.querySelector("a");
+
+    link.addEventListener("click", event => {
+
+        event.preventDefault();
+
+        alert("No distractions! I'm coding");
+
+    });
+
+    </script>
+
+        <section>
+
+            <button>Click Me!</button>
+
+            <script>
+
+                let button = document.querySelector("button");
+
+                button.addEventListener("click", buttonClick);
+
+                    function buttonClick() {
+
+                alert("Button has been clicked!");
+
+                };
+
+            </script>
+
+        </section>
+
+    </main>
+    
+    <footer></footer>
+
+</body>
+
+</html>
